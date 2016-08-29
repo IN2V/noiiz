@@ -1,0 +1,19 @@
+{
+	"name" : "noiiz",
+	"version" : "0.0.1",
+	"description" : "A community Software Package.",
+	"main" : "app.js",
+	"repository" : { 
+		"type" : "git",
+		"url" : "https://github.com/IN2V/noiiz.git"
+	},
+	"dependencies" : {
+		"koa" : "latest",
+		"koa-logger" : "latest",
+		"koa-route" : "latest",
+		"co-body" : "latest",
+		"co-views"	: "latest",
+		"swig" : "latest",
+		"mongodb" : "latest"
+	}
+}

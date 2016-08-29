@@ -1,8 +1,14 @@
 {
 	"database" : {
-		"host":"localhost",
-		"user":"root",
-		"password":"",
-		"database":"in2v"
-	}
+		"mysql" : {
+			"host" : "localhost",
+			"user" : "Emory.M",
+			"password" : "",
+			"database" : "in2v"
+		},
+		"mongo" : {
+			"db" : "in2v"
+		}
+	},
+	"socket" : "/var/run/noiiz.sock"
 }
