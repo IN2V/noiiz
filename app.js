@@ -51,7 +51,7 @@ try{
 		exist = false;
 }
 if(exist)
-	fs.unlink(socket);
+	fs.unlinkSync(socket);
 
 app.listen(socket);
 fs.chown(socket, 33, 33);
